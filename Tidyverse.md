@@ -46,8 +46,7 @@ tidyverse_packages()
 
 ![](imagens/readr.png)
 
-Dados de desmatamento na Amazonas por estado nos anos de 2012 a
-2015.
+Dados de desmatamento na Amazônia por estado nos anos de 2012 a 2015.
 
 ``` r
 dados <- read_csv2("dados/desmatamento_amazonia_estados_prodes_2012-2015.csv", n_max = 10)
